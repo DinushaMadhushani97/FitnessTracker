@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker | Contact Us</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Fitness Tracker</div>
+            <ul class="nav-links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="register.html">Services</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-hero">
+        <div class="hero-content">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you. Get in touch with us through the form below or reach out directly.</p>
+        </div>
+    </section>
+
+    <section class="contact-content">
+        <div class="contact-box">
+            <div class="contact-image">
+                <img src="images/image25.jpg" alt="Contact Us Image">
+            </div>
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <h2>Find Us Here</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.6229485834915!2d-122.41941508468199!3d37.7749297797596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807b2d48aef3%3A0x4c204a4ff409640!2s123%20Fitness%20St%2C%20San%20Francisco%2C%20CA%2094121!5e0!3m2!1sen!2sus!4v1630953129513!5m2!1sen!2sus" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy"></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fitness Tracker. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

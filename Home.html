@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker | Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Fitness Tracker</div>
+            <ul class="nav-links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Fitness Tracker</h1>
+            <p>Your journey to better health and fitness starts here.</p>
+            <a href="register.html" class="cta-button">Join Now</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <img src="images/image1.jpg" alt="Workouts">
+            <h2>Workouts</h2>
+            <p>Explore a variety of workouts tailored to different goals and fitness levels. Whether you're looking to build muscle, lose weight, or stay active, we have the perfect routine for you.</p>
+            <button class="read-more" onclick="navigateTo('workouts.html')">Read More</button>
+        </div>
+
+        <div class="feature-card">
+            <img src="images/image2.jpg" alt="Nutrition">
+            <h2>Nutrition</h2>
+            <p>Nutrition is key to your fitness journey. Discover personalized meal plans, healthy recipes, and tips to fuel your body for optimal performance and well-being.</p>
+            <button class="read-more" onclick="navigateTo('nutrition.html')">Read More</button>
+        </div>
+
+        <div class="feature-card">
+            <img src="images/image3.jpg" alt="Progress">
+            <h2>Progress</h2>
+            <p>Track your progress with our advanced tools. Monitor your improvements, set goals, and see how far you've come in your fitness journey.</p>
+            <button class="read-more" onclick="navigateTo('progress.html')">Read More</button>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <h2>Subscribe to our Newsletter</h2>
+        <form>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fitness Tracker. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
